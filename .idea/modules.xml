@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yoo-agent.iml" filepath="$PROJECT_DIR$/.idea/modules/yoo-agent.iml" group="yoo-agent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_main.iml" group="yoo-agent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_test.iml" group="yoo-agent" />
     </modules>
   </component>
 </project>
