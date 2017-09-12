@@ -6,7 +6,6 @@
         <webroots>
           <root url="file://D:\Workspaces\idea\default\jspunion-cloud\yoo-agent\src\main\webapp" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
   </component>

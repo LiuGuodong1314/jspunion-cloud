@@ -3,4 +3,7 @@ include 'config-center'
 include 'config-server'
 include 'config-client'
 include 'yoo-agent'
+include 'eureka-server'
+include 'eureka-client'
+include 'eureka-discovery'
 

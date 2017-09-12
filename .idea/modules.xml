@@ -9,6 +9,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery.iml" group="eureka-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery/eureka-discovery_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery/eureka-discovery_main.iml" group="eureka-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery/eureka-discovery_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery/eureka-discovery_test.iml" group="eureka-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/yoo-agent.iml" filepath="$PROJECT_DIR$/.idea/modules/yoo-agent.iml" group="yoo-agent" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/yoo-agent/yoo-agent_main.iml" group="yoo-agent" />
