@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-center.iml" filepath="$PROJECT_DIR$/.idea/modules/config-center.iml" group="config-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/jspunion-cloud.iml" />
     </modules>
   </component>
