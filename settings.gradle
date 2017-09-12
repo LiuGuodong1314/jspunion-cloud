@@ -1,3 +1,4 @@
 rootProject.name = 'jspunion-cloud'
 include 'config-center'
+include 'config-server'
 
