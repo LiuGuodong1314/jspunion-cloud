@@ -6,4 +6,5 @@ include 'yoo-agent'
 include 'eureka-server'
 include 'eureka-client'
 include 'eureka-discovery'
+include 'eureka-server-backup'
 

@@ -17,9 +17,9 @@ import java.util.Map;
 @RestController
 @RequestMapping
 @EnableEurekaClient
-public class Application {
+public class EurekaClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(EurekaClientApplication.class, args);
     }
 
     @Value("${message}")
