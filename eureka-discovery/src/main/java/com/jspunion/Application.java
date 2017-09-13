@@ -31,5 +31,4 @@ public class Application {
     public Object index(){
         return greetService.hello();
     }
-
 }
