@@ -19,13 +19,13 @@ import java.util.Map;
 @RefreshScope
 public class Application {
 
-    @Value("${foo}")
-    private String serverHost;
+    @Value("${message}")
+    private String message;
 
     @RequestMapping
     public Object index() {
         Map<String, Object> map = new HashMap<String, Object>(){{
-            put("serverHost",serverHost);
+            put("message",message);
         }};
         return  map;
     }
