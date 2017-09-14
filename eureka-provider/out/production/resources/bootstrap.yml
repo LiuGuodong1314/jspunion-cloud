@@ -1,0 +1,25 @@
+server:
+  port: 8010
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8000/
+      name: config-client
+      label: master
+      profile: dev
+  application:
+    name: eureka-provider
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://master:8001/eureka,http://slave:8002/eureka
+## default-zone or defaultZone 自以为是，会让你栽跟头
+## http://master:8001/eureka 单独写它可
+
+management:
+  security:
+    enabled: false
+
+

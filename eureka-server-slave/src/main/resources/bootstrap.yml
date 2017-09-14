@@ -1,0 +1,15 @@
+server:
+  port: 8002
+
+eureka:
+  instance:
+    hostname: slave
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://master:8001/eureka
+spring:
+  application:
+    name: eureka-server-slave
+
