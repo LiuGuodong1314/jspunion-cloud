@@ -8,4 +8,6 @@ include 'eureka-server-master'
 include 'eureka-server-slave'
 include 'eureka-provider'
 include 'eureka-consumer'
+include 'eureka-provider-one'
+include 'eureka-provider-two'
 
