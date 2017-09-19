@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 80
 
 spring:
   cloud:
@@ -9,18 +9,25 @@ spring:
       label: master
       profile: dev
   application:
-    name: eureka-consumer
+    name: zuul-server
+
 eureka:
   client:
     service-url:
       defaultZone: http://master:8001/eureka,http://slave:8002/eureka
+## default-zone or defaultZone 自以为是，会让你栽跟头
+## http://master:8001/eureka 单独写它可
 
 management:
   security:
     enabled: false
+zuul:
+  routes:
+     mall:
+       path: /mall/**
+       serviceId: eureka-consumer
+     prov:
+       path: /prov/**
+       serviceId: eureka-provider
 
-eureka-provider:
-  ribbon:
-    NFLoadBalancerRuleClassName:
-      ## com.jspunion.server.loadbalancer.ConsumerRule
-      com.netflix.loadbalancer.AvailabilityFilteringRule
+

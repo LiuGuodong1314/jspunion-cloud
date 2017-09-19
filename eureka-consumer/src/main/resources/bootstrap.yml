@@ -19,4 +19,8 @@ management:
   security:
     enabled: false
 
-
+eureka-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName:
+      ## com.jspunion.server.loadbalancer.ConsumerRule
+      com.netflix.loadbalancer.AvailabilityFilteringRule
